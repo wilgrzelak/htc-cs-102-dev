@@ -12,6 +12,8 @@ namespace ClassesIntro
         public string Breed;
         public int Height;
         public string Name;
+        public string color;
+
 
         public void Bark()
         {
@@ -25,6 +27,10 @@ namespace ClassesIntro
             this.Breed = breed;
             this.Height = height;
             this.Name = name;
+        }
+        public void sayName()
+        {
+            MessageBox.Show($"My name is {Name}");
         }
     }
 }
