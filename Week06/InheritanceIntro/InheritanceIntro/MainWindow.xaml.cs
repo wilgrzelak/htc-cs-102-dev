@@ -49,6 +49,12 @@ namespace InheritanceIntro
             {
                 d.SayName();
             }
+            Duck duck1 = new inheritanceIntroDuck(9, "wilbur");
+        }
+
+        private void Quack_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

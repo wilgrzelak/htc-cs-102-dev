@@ -7,10 +7,9 @@ using System.Windows;
 
 namespace InheritanceIntro
 {
-    public class Dog
+    public class Dog : animal
     {
-        public string Name;
-        public int Height;
+       
         public string Breed;
 
         public void Bark()
